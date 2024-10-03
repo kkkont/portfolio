@@ -17,3 +17,7 @@ footer p {
   color: var(--main-color);
   line-height: 20px;
 }
+
+.footer-links a :hover {
+  color: #5b6d07;
+}

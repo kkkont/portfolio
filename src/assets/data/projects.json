@@ -1,20 +1,51 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "shortDescription": "A cool project I built using React.",
+    "title": "NomNomNotebook",
+    "shortDescription": "Web application dedicated to recipe sharing and storage. Users can create accounts, manage their recipes privately or publicly, and interact with others through comments and likes, enhancing their culinary experience.",
     "detailedDescription": "This is a more in-depth explanation of Project 1. It was built using React, JavaScript, and CSS. I faced several challenges such as state management and optimizing performance. I also used hooks and functional components.",
     "image": "/images/nomnomnotebook.png",
-    "repositoryLink": "https://github.com/username/project1",
+    "repositoryLink": "https://github.com/kkkont/nomnomnotebook",
     "technologies": ["React", "JavaScript", "CSS"],
     "readme": "/readme/project1.md"
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "shortDescription": "A fun app for managing tasks efficiently.",
+    "title": "Cinemate",
+    "shortDescription": "Cinemate is an intuitive platform for browsing movies and viewing schedules. It features a seat selection algorithm, allowing users to choose their seats and check out effortlessly.",
     "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
-    "image": "/images/project2.jpg",
+    "image": "/images/cinemate.png",
+    "repositoryLink": "https://github.com/username/project2",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "readme": "/readme/project2.md"
+  },
+
+  {
+    "id": 3,
+    "title": "Deliveryapp",
+    "shortDescription": "Sub-functionality of the food delivery application which calculates the delivery fee for food couriers based on regional base fee, vehicle type, and weather conditions.",
+    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "image": "/images/delivery.png",
+    "repositoryLink": "https://github.com/username/project2",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "readme": "/readme/project2.md"
+  },
+  {
+    "id": 4,
+    "title": "Cardiovascular Diseases Risk Prediction",
+    "shortDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative effort to analyze how lifestyle choices impact the risk of cardiovascular diseases (CVD) and to develop predictive models based on these factors.",
+    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "image": "/images/cardiovasc.png",
+    "repositoryLink": "https://github.com/username/project2",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "readme": "/readme/project2.md"
+  },
+  {
+    "id": 5,
+    "title": "Resto",
+    "shortDescription": "The Restaurant Simulation Project provides a fun dining experience with menu browsing, waitress assignment, age verification for alcohol, and an ordering and billing system, all in Estonian.",
+    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "image": "/images/resto.png",
     "repositoryLink": "https://github.com/username/project2",
     "technologies": ["React", "Node.js", "Express", "MongoDB"],
     "readme": "/readme/project2.md"

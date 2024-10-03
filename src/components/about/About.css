@@ -51,6 +51,10 @@
   font-size: 50px;
 }
 
+.about-links a :hover {
+  color: #5b6d07;
+}
+
 #hi {
   font-family: "Abril Fatface", serif;
   font-weight: 400;

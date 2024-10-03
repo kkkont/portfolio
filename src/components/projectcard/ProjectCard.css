@@ -1,7 +1,6 @@
 .project-card {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   border-radius: 20px;
   max-width: 680px;
@@ -11,6 +10,7 @@
   background-color: #6d830910;
   transition: background-color 0.3s ease;
 }
+
 .project-short-info {
   display: flex;
   flex-direction: column;
@@ -22,7 +22,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .project-image {
@@ -38,27 +37,32 @@
   font-weight: 400;
   font-size: 22px;
   color: var(--main-color);
-  margin-right: 20px;
-  line-height: 0px;
+  margin: 5px 5px 10px 0px;
+  line-height: 20px;
 }
+
 .project-short-description {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: var(--main-color);
   line-height: 20px;
+  text-align: justify;
 }
 
 .view-details-button {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  padding: 8px 16px;
+  padding: 8px;
   background-color: #febac6; /* A nice blue color */
   color: white;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  text-align: center;
+  width: 96px;
+  display: block;
   transition: background-color 0.3s ease;
 }
 
@@ -70,6 +74,9 @@
   background-color: #fa90a4;
 }
 @media (max-width: 768px) {
+  .project-card {
+    flex-wrap: wrap;
+  }
   .project-image {
     flex-basis: 100%;
     max-height: none;
