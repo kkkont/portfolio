@@ -1,0 +1,77 @@
+.project-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+  max-width: 680px;
+  min-height: 191px;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: #6d830910;
+  transition: background-color 0.3s ease;
+}
+.project-short-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 18px;
+}
+
+.project-title-and-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-image {
+  width: 271px;
+  height: 167px;
+  margin: 13px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.project-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--main-color);
+  margin-right: 20px;
+  line-height: 0px;
+}
+.project-short-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--main-color);
+  line-height: 20px;
+}
+
+.view-details-button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #febac6; /* A nice blue color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-card:hover {
+  background-color: #6d830920;
+}
+
+.view-details-button:hover {
+  background-color: #fa90a4;
+}
+@media (max-width: 768px) {
+  .project-image {
+    flex-basis: 100%;
+    max-height: none;
+  }
+}
