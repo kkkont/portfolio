@@ -20,7 +20,10 @@ function ProjectCard({
         <div className="project-title-and-links">
           <h3 className="project-title">{title}</h3>
           <div className="project-buttons">
-            <a href={`/project/${projectId}`} className="view-details-button">
+            <a
+              href={process.env.PUBLIC_URL + `/project/${projectId}`}
+              className="view-details-button"
+            >
               Read More
             </a>
           </div>
