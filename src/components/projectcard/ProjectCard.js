@@ -21,7 +21,7 @@ function ProjectCard({
           <h3 className="project-title">{title}</h3>
           <div className="project-buttons">
             <a
-              href={process.env.PUBLIC_URL + `/project/${projectId}`}
+              href={process.env.PUBLIC_URL + `#/project/${projectId}`}
               className="view-details-button"
             >
               Read More
