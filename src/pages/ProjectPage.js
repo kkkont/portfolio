@@ -42,7 +42,7 @@ const ProjectPage = () => {
                 <FontAwesomeIcon icon={faSquareGit} />
                 &nbsp;Repository
               </a>
-              <a href={`/`} className="back-button">
+              <a href={process.env.PUBLIC_URL + `/`} className="back-button">
                 Back
               </a>
             </div>
