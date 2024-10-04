@@ -6,8 +6,7 @@
     "detailedDescription": "This is a more in-depth explanation of Project 1. It was built using React, JavaScript, and CSS. I faced several challenges such as state management and optimizing performance. I also used hooks and functional components.",
     "image": "/images/nomnomnotebook.png",
     "repositoryLink": "https://github.com/kkkont/nomnomnotebook",
-    "technologies": ["React", "JavaScript", "CSS"],
-    "readme": "/readme/project1.md"
+    "technologies": ["React", "JavaScript", "CSS"]
   },
   {
     "id": 2,
@@ -16,8 +15,7 @@
     "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
     "image": "/images/cinemate.png",
     "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"],
-    "readme": "/readme/project2.md"
+    "technologies": ["React", "Node.js", "Express", "MongoDB"]
   },
 
   {
@@ -27,8 +25,7 @@
     "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
     "image": "/images/delivery.png",
     "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"],
-    "readme": "/readme/project2.md"
+    "technologies": ["React", "Node.js", "Express", "MongoDB"]
   },
   {
     "id": 4,
@@ -37,8 +34,7 @@
     "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
     "image": "/images/cardiovasc.png",
     "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"],
-    "readme": "/readme/project2.md"
+    "technologies": ["React", "Node.js", "Express", "MongoDB"]
   },
   {
     "id": 5,
@@ -47,7 +43,6 @@
     "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
     "image": "/images/resto.png",
     "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"],
-    "readme": "/readme/project2.md"
+    "technologies": ["React", "Node.js", "Express", "MongoDB"]
   }
 ]

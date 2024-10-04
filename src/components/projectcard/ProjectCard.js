@@ -21,7 +21,7 @@ function ProjectCard({
           <h3 className="project-title">{title}</h3>
           <div className="project-buttons">
             <a href={`/project/${projectId}`} className="view-details-button">
-              Read More :)
+              Read More
             </a>
           </div>
         </div>
