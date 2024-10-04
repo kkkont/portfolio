@@ -15,6 +15,7 @@
   margin: 20px;
   margin-top: 30px;
   background-color: #6d830910;
+  overflow: hidden;
 }
 
 .projectpage-short-info {
@@ -27,7 +28,6 @@
 .projectpage-title-and-links {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
 }
 
@@ -173,5 +173,8 @@ ul {
   .projectpage-image {
     flex-basis: 100%;
     max-height: none;
+  }
+  .projectpage-title-and-links {
+    flex-wrap: wrap;
   }
 }
