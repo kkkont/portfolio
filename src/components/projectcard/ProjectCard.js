@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
 function ProjectCard({
@@ -20,12 +21,9 @@ function ProjectCard({
         <div className="project-title-and-links">
           <h3 className="project-title">{title}</h3>
           <div className="project-buttons">
-            <a
-              href={process.env.PUBLIC_URL + `#/project/${projectId}`}
-              className="view-details-button"
-            >
+            <Link to={`/project/${projectId}`} className="view-details-button">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
         <p className="project-short-description">{shortDescription}</p>

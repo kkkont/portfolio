@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import projectsData from "../assets/data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,8 +8,9 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "./ProjectPage.css";
 
 const ProjectPage = () => {
-  const { id } = useParams(); // Get project ID from URL
-  const [project, setProject] = useState(null); // State for the project data
+  const { id } = useParams();
+  const [project, setProject] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const selectedProject = projectsData.find(
@@ -42,9 +43,9 @@ const ProjectPage = () => {
                 <FontAwesomeIcon icon={faSquareGit} />
                 &nbsp;Repository
               </a>
-              <a href={process.env.PUBLIC_URL + `/`} className="back-button">
+              <div onClick={() => navigate(-1)} className="back-button">
                 Back
-              </a>
+              </div>
             </div>
           </div>
           <p className="projectpage-short-description">
