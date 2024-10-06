@@ -1,48 +1,62 @@
 [
   {
     "id": 1,
-    "title": "NomNomNotebook",
+    "title": "Recipe app",
     "shortDescription": "Web application dedicated to recipe sharing and storage. Users can create accounts, manage their recipes privately or publicly, and interact with others through comments and likes, enhancing their culinary experience.",
-    "detailedDescription": "This is a more in-depth explanation of Project 1. It was built using React, JavaScript, and CSS. I faced several challenges such as state management and optimizing performance. I also used hooks and functional components.",
+    "detailedDescription": "NomNomNotebook is a web application for recipe sharing and storage. Users can create accounts, store their favorite recipes, and share them publicly with the community. Users can decide whether they want to make their recipes public for others to enjoy or keep them private only for themselves. Additionally, application allows users to interact with each other by liking and commenting on shared recipes. Each user has a personalized profile that they can update as needed, making it easy to manage their information. ",
     "image": "/images/nomnomnotebook.png",
     "repositoryLink": "https://github.com/kkkont/nomnomnotebook",
-    "technologies": ["React", "JavaScript", "CSS"]
+    "technologies": [
+      "Vue.js",
+      "HTML/CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "PostreSQL"
+    ]
   },
   {
     "id": 2,
     "title": "Cinemate",
     "shortDescription": "Cinemate is an intuitive platform for browsing movies and viewing schedules. It features a seat selection algorithm, allowing users to choose their seats and check out effortlessly.",
-    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "detailedDescription": "Cinemate is a cinema application designed to provide an user-friendly experience for selecting movies, viewing schedules, choosing seats, and completing bookings. The project is divided into two parts: the frontend and the backend, both available separately on my GitHub account. The frontend offers an interface that allows user to browse movies, view showtimes, select their seats, and proceed through checkout. The backend supports these features by managing movie data, seat availability, and seat recommendations. It also integrates with an external movie database to enhance movie details with ratings and summaries.",
     "image": "/images/cinemate.png",
-    "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"]
+    "repositoryLink": "https://github.com/kkkont",
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "HTML/CSS",
+      "Java",
+      "Spring Boot",
+      "H2 Database"
+    ]
   },
 
   {
     "id": 3,
     "title": "Deliveryapp",
     "shortDescription": "Sub-functionality of the food delivery application which calculates the delivery fee for food couriers based on regional base fee, vehicle type, and weather conditions.",
-    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "detailedDescription": "The Delivery Fee Calculator Application is a sub-functionality of a food delivery system designed to calculate delivery fees for food couriers. The application determines fees based on various factors, such as the base delivery fee in a specific city, the type of vehicle used, and current weather conditions. Weather data is fetched from an external API, allowing for real-time adjustments to delivery fees. Users can request delivery fee calculations through a RESTful API, providing input parameters such as city, vehicle type, and an optional date.",
     "image": "/images/delivery.png",
-    "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"]
+    "repositoryLink": "https://github.com/kkkont/deliveryapp",
+    "technologies": ["Java", "Spring Boot", "H2 Database"]
   },
   {
     "id": 4,
     "title": "Cardiovascular Diseases Risk Prediction",
     "shortDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative effort to analyze how lifestyle choices impact the risk of cardiovascular diseases (CVD) and to develop predictive models based on these factors.",
-    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "detailedDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative initiative that aims to analyze the impact of various lifestyle factors on the presence of cardiovascular diseases using a dedicated dataset. The project includes visualizations that illustrate relationships between factors such as general health, age, gender, BMI, exercise, smoking history, diabetes, and heart disease. The predictive model created for assessing cardiovascular disease risk achieved an accuracy of 95%, with AUC score of 0.99, demonstrating its effectiveness in identifying individuals at risk. ",
     "image": "/images/cardiovasc.png",
-    "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"]
+    "repositoryLink": "https://github.com/Roberta1400/Cardiovascular-Diseases-Risk-Prediction",
+    "technologies": ["Python", "Jupyter Notebook"]
   },
   {
     "id": 5,
     "title": "Resto",
     "shortDescription": "The Restaurant Simulation Project provides a fun dining experience with menu browsing, waitress assignment, age verification for alcohol, and an ordering and billing system, all in Estonian.",
-    "detailedDescription": "Project 2 is a task management app that I built using React for the frontend and Node.js for the backend. It has user authentication, real-time updates, and a responsive UI. This project helped me learn more about building full-stack applications.",
+    "detailedDescription": "The Restaurant Simulation Project is a collaborative effort to create a simple Java-based application that simulates the experience of dining at a restaurant using JavaFX and Gradle. Entirely in Estonian, this application allows users to interact with a virtual restaurant environment. Key features include reading the restaurant menu from a file for easy updates, randomly assigning one of four multiple waitresses to each user, and implementing an age verification system for ordering age-restricted items off the menu. Users can place multiple orders, request a bill, and have the bill details logged in a separate file.",
     "image": "/images/resto.png",
-    "repositoryLink": "https://github.com/username/project2",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"]
+    "repositoryLink": "https://github.com/kkkont/resto",
+    "technologies": ["Java"]
   }
 ]
