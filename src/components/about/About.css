@@ -15,11 +15,11 @@
 }
 
 .about-image img {
-  width: 163px;
+  width: 200px;
   position: absolute;
   z-index: 1;
-  margin-top: -126px;
-  margin-left: 40px;
+  margin-top: -140px;
+  margin-left: 20px;
 }
 
 .about-text-container {
