@@ -11,6 +11,20 @@ function About() {
     setAboutInfo(aboutData);
   }, []);
 
+  const formatDescription = (text) => {
+    if (text) {
+      return text.split("\n").map((str, index) => (
+        <span key={index}>
+          {str}
+          <br />
+          <br />
+        </span>
+      ));
+    }
+
+    return null;
+  };
+
   return (
     <div className="about-container">
       <div className="about-image">
@@ -39,7 +53,7 @@ function About() {
               </a>
             </div>
           </div>
-          <p id="about-text">{aboutInfo.description}</p>
+          <p id="about-text">{formatDescription(aboutInfo.description)}</p>
         </div>
       </div>
     </div>

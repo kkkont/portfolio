@@ -1,0 +1,39 @@
+.heading {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-color);
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  border: 1.5px solid #ccccccd1;
+  border-radius: 8px;
+  background-color: #e3e8cd58;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0px auto;
+}
