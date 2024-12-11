@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import About from "../components/about/About";
-import Footer from "../components/footer/Footer";
 import ProjectCard from "../components/projectcard/ProjectCard"; // Ensure this is declared only once
 import projectsData from "../assets/data/projects.json";
 import Skillset from "../components/skillset/Skillset";
@@ -31,7 +30,6 @@ function Home() {
           ))}
         </div>
       </section>
-      <Footer />
     </div>
   );
 }

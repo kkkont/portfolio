@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import Footer from "../components/footer/Footer";
 import projectsData from "../assets/data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGit } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +17,19 @@ const ProjectPage = () => {
     );
     setProject(selectedProject);
   }, [id]);
+  const formatDescription = (text) => {
+    if (text) {
+      return text.split("\n").map((str, index) => (
+        <span key={index}>
+          {str}
+          <br />
+          <br />
+        </span>
+      ));
+    }
+
+    return null;
+  };
 
   if (!project) return <p>Loading...</p>;
 
@@ -55,7 +67,7 @@ const ProjectPage = () => {
       </div>
       <div className="projectpage-detailed-card">
         <p className="projectpage-detailed-description">
-          {project.detailedDescription}
+          {formatDescription(project.detailedDescription)}
         </p>
         <div className="projectpage-tech-used">
           <div className="tech-title">
@@ -69,7 +81,6 @@ const ProjectPage = () => {
           </ul>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
