@@ -45,19 +45,21 @@ const ProjectPage = () => {
           <div className="projectpage-title-and-links">
             <h3 className="projectpage-title">{project.title}</h3>
             <div className="projectpage-buttons">
-              <a
-                href={project.repositoryLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Repository"
-                className="repository-button"
-              >
-                <FontAwesomeIcon icon={faSquareGit} />
-                &nbsp;Repository
-              </a>
-              <div onClick={() => navigate(-1)} className="back-button">
+              <button>
+                <a
+                  href={project.repositoryLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Repository"
+                  className="repository-button"
+                >
+                  <FontAwesomeIcon icon={faSquareGit} />
+                  &nbsp;Repository
+                </a>
+              </button>
+              <button onClick={() => navigate(-1)} className="back-button">
                 Back
-              </div>
+              </button>
             </div>
           </div>
           <p className="projectpage-short-description">

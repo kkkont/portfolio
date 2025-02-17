@@ -12,7 +12,8 @@
       "HTML/CSS",
       "Java",
       "Spring Boot",
-      "H2 Database"
+      "H2 Database",
+      "Tailwind CSS"
     ]
   },
   {
@@ -33,6 +34,15 @@
   },
   {
     "id": 3,
+    "title": "Delivery fee app",
+    "shortDescription": "The Delivery Fee Calculator is a full-stack web app that estimates delivery costs based on venue location, order price, and distance, providing an accurate total price through an intuitive interface.",
+    "detailedDescription": "The Delivery Fee Calculator App is a web application built with React, TypeScript, and Tailwind CSS. It helps users calculate the total delivery cost based on various factors, including venue location and order price. The app fetches venue information from an API and calculates the distance from the venue to the delivery address. Based on the order price and the calculated distance, it determines base fees and delivery fees, providing the user with an accurate total delivery price. The app offers an intuitive and user-friendly interface, making it easy to estimate delivery costs quickly. ",
+    "image": "/images/deliveryfeeapp.png",
+    "repositoryLink": "https://github.com/kkkont/deliveryfeeapp",
+    "technologies": ["React", "HTML", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "id": 4,
     "title": "Cinemate",
     "shortDescription": "Cinemate is an intuitive platform for browsing movies and viewing schedules. It features a seat selection algorithm, allowing users to choose their seats and check out effortlessly.",
     "detailedDescription": "Cinemate is a cinema application designed to provide an user-friendly experience for selecting movies, viewing schedules, choosing seats, and completing bookings. \nThe project is divided into two parts: the frontend and the backend, both available separately on my GitHub account. The frontend offers an interface that allows user to browse movies, view showtimes, select their seats, and proceed through checkout. The backend supports these features by managing movie data, seat availability, and seat recommendations. It also integrates with an external movie database to enhance movie details with ratings and summaries.",
@@ -49,7 +59,7 @@
   },
 
   {
-    "id": 4,
+    "id": 5,
     "title": "Deliveryapp",
     "shortDescription": "Sub-functionality of the food delivery application which calculates the delivery fee for food couriers based on regional base fee, vehicle type, and weather conditions.",
     "detailedDescription": "The Delivery Fee Calculator Application is a sub-functionality of a food delivery system designed to calculate delivery fees for food couriers. The application determines fees based on various factors, such as the base delivery fee in a specific city, the type of vehicle used, and current weather conditions. \nWeather data is fetched from an external API, allowing for real-time adjustments to delivery fees. Users can request delivery fee calculations through a RESTful API, providing input parameters such as city, vehicle type, and an optional date.",
@@ -58,7 +68,7 @@
     "technologies": ["Java", "Spring Boot", "H2 Database"]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Cardiovascular Diseases Risk Prediction",
     "shortDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative effort to analyze how lifestyle choices impact the risk of cardiovascular diseases (CVD) and to develop predictive models based on these factors.",
     "detailedDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative initiative that aims to analyze the impact of various lifestyle factors on the presence of cardiovascular diseases using a dedicated dataset. \nThe project includes visualizations that illustrate relationships between factors such as general health, age, gender, BMI, exercise, smoking history, diabetes, and heart disease. The predictive model created for assessing cardiovascular disease risk achieved an accuracy of 95%, with AUC score of 0.99, demonstrating its effectiveness in identifying individuals at risk. ",
@@ -67,7 +77,7 @@
     "technologies": ["Python", "Jupyter Notebook"]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Resto",
     "shortDescription": "The Restaurant Simulation Project provides a fun dining experience with menu browsing, waitress assignment, age verification for alcohol, and an ordering and billing system, all in Estonian.",
     "detailedDescription": "The Restaurant Simulation Project is a collaborative effort to create a simple Java-based application that simulates the experience of dining at a restaurant using JavaFX and Gradle. Entirely in Estonian, this application allows users to interact with a virtual restaurant environment. \nKey features include reading the restaurant menu from a file for easy updates, randomly assigning one of four multiple waitresses to each user, and implementing an age verification system for ordering age-restricted items off the menu. Users can place multiple orders, request a bill, and have the bill details logged in a separate file.",
