@@ -90,7 +90,7 @@ const ProjectPage = () => {
           {project.downloadPDFLink && (
             <button>
               <a
-                href={project.downloadPDFLink}
+                href={process.env.PUBLIC_URL + project.downloadPDFLink}
                 download
                 rel="noopener noreferrer"
                 aria-label="Download"
