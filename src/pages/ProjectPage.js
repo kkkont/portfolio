@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import projectsData from "../assets/data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGit } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faDownload } from "@fortawesome/free-solid-svg-icons";
 import "./ProjectPage.css";
 
 const ProjectPage = () => {
@@ -45,18 +45,19 @@ const ProjectPage = () => {
           <div className="projectpage-title-and-links">
             <h3 className="projectpage-title">{project.title}</h3>
             <div className="projectpage-buttons">
-              <button>
-                <a
-                  href={project.repositoryLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Repository"
-                  className="repository-button"
-                >
-                  <FontAwesomeIcon icon={faSquareGit} />
-                  &nbsp;Repository
-                </a>
-              </button>
+              {project.repositoryLink && (
+                <button>
+                  <a
+                    href={project.repositoryLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Repository"
+                    className="repository-button"
+                  >
+                    <FontAwesomeIcon icon={faSquareGit} />
+                    &nbsp;Repository
+                  </a>
+                </button>)}
               <button onClick={() => navigate(-1)} className="back-button">
                 Back
               </button>
@@ -67,22 +68,52 @@ const ProjectPage = () => {
           </p>
         </div>
       </div>
+      <h3 className="projectpage-extratitle">{project.extraTitle}</h3>
       <div className="projectpage-detailed-card">
         <p className="projectpage-detailed-description">
           {formatDescription(project.detailedDescription)}
         </p>
-        <div className="projectpage-tech-used">
-          <div className="tech-title">
-            <FontAwesomeIcon icon={faCode} />
-            <h3>Technologies Used</h3>
-          </div>
-          <ul>
-            {project.technologies.map((tech, index) => (
-              <li key={index}>{tech}</li>
-            ))}
-          </ul>
+        <div className="projectpage-extra-info">
+          {project.technologies && (
+            <div className="projectpage-tech-used">
+              <div className="tech-title">
+                <FontAwesomeIcon icon={faCode} />
+                <h3>Technologies Used</h3>
+              </div>
+              <ul>
+                {project.technologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {project.downloadPDFLink && (
+            <button>
+              <a
+                href={project.downloadPDFLink}
+                download
+                rel="noopener noreferrer"
+                aria-label="Download"
+                className="download-button"
+              >
+                <FontAwesomeIcon icon={faDownload} />
+                &nbsp;Download PDF
+              </a>
+            </button>)}
         </div>
       </div>
+      {project.youtubeLink && (
+            <div className="youtube-container">
+              <iframe
+                width="560"
+                height="315"
+                src={`https://www.youtube.com/embed/${project.youtubeLink}`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          )}
     </div>
   );
 };

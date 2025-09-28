@@ -1,13 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
 function ProjectCard({
   title,
+  extraTitle,
   shortDescription,
   image,
-  repositoryLink,
   projectId,
 }) {
   return (
@@ -26,18 +24,14 @@ function ProjectCard({
             </Link>
           </div>
         </div>
+        {extraTitle ? (
+          <p className="project-short-description">{extraTitle}</p>
+        ) : (
         <p className="project-short-description">{shortDescription}</p>
+        )}
       </div>
     </div>
   );
 }
-
-ProjectCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  shortDescription: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  repositoryLink: PropTypes.string.isRequired,
-  projectId: PropTypes.number.isRequired,
-};
 
 export default ProjectCard;

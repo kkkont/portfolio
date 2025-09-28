@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import About from "../components/about/About";
-import ProjectCard from "../components/projectcard/ProjectCard"; // Ensure this is declared only once
+import ProjectCard from "../components/projectcard/ProjectCard";
 import projectsData from "../assets/data/projects.json";
 import Skillset from "../components/skillset/Skillset";
 
@@ -22,9 +22,9 @@ function Home() {
             <ProjectCard
               key={project.id}
               title={project.title}
+              extraTitle={project.extraTitle}
               shortDescription={project.shortDescription}
               image={project.image}
-              repositoryLink={project.repositoryLink}
               projectId={project.id}
             />
           ))}

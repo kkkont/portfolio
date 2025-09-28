@@ -1,6 +1,35 @@
 [
   {
-    "id": 1,
+    "id": 8,
+    "title": "Bachelor's thesis",
+    "extraTitle": "Benchmarking Energy and Performance of Standard Machine Learning Libraries: An Empirical Study",
+    "detailedDescription": "The impact of programming language and library selection on the energy consumption of machine learning tasks has not been thoroughly explored. This thesis compared three widely used programming languages in machine learning and their libraries, focusing on energy efficiency, runtime performance, and model accuracy. Using a classification dataset, five machine learning algorithms were implemented using standard libraries in each language. The study examined how the choice of language and library impacts energy consumption, execution time, and predictive performance, exploring trade-offs between these metrics. Statistical analysis was conducted to validate the results and compare the algorithms' energy usage and performance across different implementations. The results provided insights into how the choice of standard libraries impacts the energy efficiency of machine learning algorithms.",
+    "image": "/images/thesis.png",
+    "downloadPDFLink": "/Kont_ComputerScience_2025.pdf",
+    "repositoryLink": "https://github.com/kkkont/bsc-thesis",
+    "technologies": [
+      "Python",
+      "C++",
+      "Julia"
+    ]
+  },
+
+   {
+    "id": 7,
+    "title": "Digitizing QA Control Cards",
+    "shortDescription":"Web application to create, edit, and preview digitized QA cards, streamlining management of customer-specific and internal QA control cards for quality assurance specialists.",
+    "detailedDescription": "In collaboration with Estonian industrial company, our team of four developed an early working prototype of a web application to replace paper-based QA (Quality Assurance) control cards used on the factory floor. Traditionally, QA cards containing quality checks and testing tasks were stored on paper, making them hard to manage, time-consuming, and lacking centralized access or traceability. \nOver the course of three months, we delivered a functional prototype that allows QA specialists to create, edit, and preview QA cards digitally. The system was built with Next.js and a PostgreSQL database, focusing on core functionality rather than production readiness. While not a complete solution, the prototype demonstrated how digitization could streamline QA processes, improve traceability, and reduce manual workload—laying the foundation for further development.",
+    "image": "/images/controlcards.png",
+    "youtubeLink":"GgDoSlcMVTs",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": 6,
     "title": "Currency app",
     "shortDescription": "Web application to fetch and display historical exchange rates against EUR, visualize trends with a table and chart, and convert amounts between EUR and a selected currency.",
     "detailedDescription": "This is a full-stack web application built with a Java Spring Boot REST backend and an Angular TypeScript frontend. The application fetches historical exchange rate data from the European Central Bank API and provides users with tools to analyze and convert currency values. It displays exchange rate trends against the Euro (EUR) through both a table and a line chart, allowing users to track currency fluctuations over time. Additionally, the application includes a currency converter that enables users to calculate the equivalent amount in a selected currency from a given sum in euros.\nThe backend exposes three REST endpoints: one for retrieving the latest exchange rates for all currencies, another for fetching the last 30 historical entries of a specific currency, and a third for calculating the equivalent sum in a different currency based on a given euro amount. These endpoints ensure efficient data retrieval and conversion, providing users with accurate and up-to-date financial information.",
@@ -17,7 +46,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Recipe app",
     "shortDescription": "Web application dedicated to recipe sharing and storage. Users can create accounts, manage their recipes privately or publicly, and interact with others through comments and likes, enhancing their culinary experience.",
     "detailedDescription": "NomNomNotebook is a web application for recipe sharing and storage. Users can create accounts, store their favorite recipes, and share them publicly with the community. \nUsers can decide whether they want to make their recipes public for others to enjoy or keep them private only for themselves. Additionally, application allows users to interact with each other by liking and commenting on shared recipes. Each user has a personalized profile that they can update as needed, making it easy to manage their information. ",
@@ -33,16 +62,21 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Delivery fee app",
     "shortDescription": "The Delivery Fee Calculator is a full-stack web app that estimates delivery costs based on venue location, order price, and distance, providing an accurate total price through an intuitive interface.",
     "detailedDescription": "The Delivery Fee Calculator App is a web application built with React, TypeScript, and Tailwind CSS. It helps users calculate the total delivery cost based on various factors, including venue location and order price. The app fetches venue information from an API and calculates the distance from the venue to the delivery address. Based on the order price and the calculated distance, it determines base fees and delivery fees, providing the user with an accurate total delivery price. The app offers an intuitive and user-friendly interface, making it easy to estimate delivery costs quickly. ",
     "image": "/images/deliveryfeeapp.png",
     "repositoryLink": "https://github.com/kkkont/deliveryfeeapp",
-    "technologies": ["React", "HTML", "TypeScript", "Tailwind CSS"]
+    "technologies": [
+      "React",
+      "HTML",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Cinemate",
     "shortDescription": "Cinemate is an intuitive platform for browsing movies and viewing schedules. It features a seat selection algorithm, allowing users to choose their seats and check out effortlessly.",
     "detailedDescription": "Cinemate is a cinema application designed to provide an user-friendly experience for selecting movies, viewing schedules, choosing seats, and completing bookings. \nThe project is divided into two parts: the frontend and the backend, both available separately on my GitHub account. The frontend offers an interface that allows user to browse movies, view showtimes, select their seats, and proceed through checkout. The backend supports these features by managing movie data, seat availability, and seat recommendations. It also integrates with an external movie database to enhance movie details with ratings and summaries.",
@@ -57,32 +91,29 @@
       "H2 Database"
     ]
   },
-
   {
-    "id": 5,
+    "id": 2,
     "title": "Deliveryapp",
     "shortDescription": "Sub-functionality of the food delivery application which calculates the delivery fee for food couriers based on regional base fee, vehicle type, and weather conditions.",
     "detailedDescription": "The Delivery Fee Calculator Application is a sub-functionality of a food delivery system designed to calculate delivery fees for food couriers. The application determines fees based on various factors, such as the base delivery fee in a specific city, the type of vehicle used, and current weather conditions. \nWeather data is fetched from an external API, allowing for real-time adjustments to delivery fees. Users can request delivery fee calculations through a RESTful API, providing input parameters such as city, vehicle type, and an optional date.",
     "image": "/images/delivery.png",
     "repositoryLink": "https://github.com/kkkont/deliveryapp",
-    "technologies": ["Java", "Spring Boot", "H2 Database"]
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "H2 Database"
+    ]
   },
   {
-    "id": 6,
+    "id": 1,
     "title": "Cardiovascular Diseases Risk Prediction",
     "shortDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative effort to analyze how lifestyle choices impact the risk of cardiovascular diseases (CVD) and to develop predictive models based on these factors.",
     "detailedDescription": "The Cardiovascular Diseases Risk Prediction project is a collaborative initiative that aims to analyze the impact of various lifestyle factors on the presence of cardiovascular diseases using a dedicated dataset. \nThe project includes visualizations that illustrate relationships between factors such as general health, age, gender, BMI, exercise, smoking history, diabetes, and heart disease. The predictive model created for assessing cardiovascular disease risk achieved an accuracy of 95%, with AUC score of 0.99, demonstrating its effectiveness in identifying individuals at risk. ",
     "image": "/images/cardiovasc.png",
     "repositoryLink": "https://github.com/Roberta1400/Cardiovascular-Diseases-Risk-Prediction",
-    "technologies": ["Python", "Jupyter Notebook"]
-  },
-  {
-    "id": 7,
-    "title": "Resto",
-    "shortDescription": "The Restaurant Simulation Project provides a fun dining experience with menu browsing, waitress assignment, age verification for alcohol, and an ordering and billing system, all in Estonian.",
-    "detailedDescription": "The Restaurant Simulation Project is a collaborative effort to create a simple Java-based application that simulates the experience of dining at a restaurant using JavaFX and Gradle. Entirely in Estonian, this application allows users to interact with a virtual restaurant environment. \nKey features include reading the restaurant menu from a file for easy updates, randomly assigning one of four multiple waitresses to each user, and implementing an age verification system for ordering age-restricted items off the menu. Users can place multiple orders, request a bill, and have the bill details logged in a separate file.",
-    "image": "/images/resto.png",
-    "repositoryLink": "https://github.com/kkkont/resto",
-    "technologies": ["Java"]
+    "technologies": [
+      "Python",
+      "Jupyter Notebook"
+    ]
   }
 ]
